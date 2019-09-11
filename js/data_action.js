@@ -188,7 +188,7 @@ data_action = [
     },
     {
         title: "Climb onto a Bigger Creature",
-        icon: "mountaintop",
+        icon: "grapple",
         subtitle: "",
         description: "Latch onto a larger creature",
         reference: "DMG, pg. 271.",
