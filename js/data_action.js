@@ -190,7 +190,7 @@ data_action = [
         title: "Climb onto a Bigger Creature",
         icon: "mountaintop",
         subtitle: "",
-        description: "'Grapple' a larger creature",
+        description: "Latch onto a larger creature",
         reference: "DMG, pg. 271.",
         bullets: [
             "Once in position next to a creature two or more sizes larger, the smaller creature uses its action to make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
@@ -198,6 +198,20 @@ data_action = [
 			"While in the target's space, the smaller creature moves with the target and has advantage on attack rolls against it.",
 			"The smaller creature can move around within the larger creature's space, treating the space as difficult terrain.",
 			"The larger creature can dislodge the smaller creature with an action by making a Strength (Athletics) check contested by the smaller creature's Strength (Athletics) or Dexterity (Acrobatics) check."
+        ]
+    },
+    {
+        title: "Disarm",
+        icon: "drop-weapon",
+        subtitle: "Knock an item away from a creature",
+        description: "Knock an item out of a creature's hands",
+        reference: "DMG, pg. 271.",
+        bullets: [
+			"The attacker makes an attack roll contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.",
+			"If the attacks wins the contest, the attack causes no damage or other ill effect, but the defender drops the item.",
+			"The item lands a number of squares away equal to the damage roll divided by 5.",
+			"The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands or if the attack is a ranged attack.",
+			"The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller."
         ]
     },
     {
