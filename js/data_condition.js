@@ -55,8 +55,8 @@ data_condition = [
     {
         title: "Doomed",
         icon: "grim-reaper",
-        subtitle: "You are pursed by death",
-        description: "You are pursed by death",
+        subtitle: "You are pursued by death",
+        description: "You are pursued by death",
         reference: "Homebrew",
         bullets: [
 			"You have disadvantage on death saving throws.",
