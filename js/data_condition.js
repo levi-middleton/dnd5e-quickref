@@ -54,13 +54,25 @@ data_condition = [
     },
     {
         title: "Doomed",
-        icon: "haunting",
+        icon: "grim-reaper",
         subtitle: "You are pursed by death",
         description: "You are pursed by death",
         reference: "Homebrew",
         bullets: [
 			"You have disadvantage on death saving throws.",
 			"When one or more dice are rolled to restore hit points to a doomed creature, each die is treated as if it had rolled a 1."
+        ]
+    },
+    {
+        title: "Fatigued",
+        icon: "despair",
+        subtitle: "You are fatigued",
+        description: "You are fatigued",
+        reference: "Homebrew",
+        bullets: [
+            "You move at half speed.",
+			"When you use a bonus action, you cannot use a reaction until the start of your next turn.",
+			"When you use a reaction, you may not use a bonus action until the start of your next turn."
         ]
     },
     {
@@ -160,7 +172,7 @@ data_condition = [
     },
     {
         title: "Prone",
-        icon: "crawl",
+        icon: "falling",
         subtitle: "You are prone",
         description: "You are prone",
         reference: "PHB, pg. 292.",

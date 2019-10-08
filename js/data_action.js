@@ -88,7 +88,7 @@ data_action = [
     },
     {
         title: "Dodge",
-        icon: "aura",
+        icon: "two-shadows",
         subtitle: "Increase defenses",
         description: "Focus entirely on avoiding attacks",
         reference: "PHB, pg. 192.",
@@ -133,7 +133,7 @@ data_action = [
     },
     {
         title: "Use shield",
-        icon: "round-shield",
+        icon: "bordered-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
