@@ -28,8 +28,7 @@ data_condition = [
         description: "You have been burned",
         reference: "Homebrew",
         bullets: [
-            "You have vulnerability to a type of damage specified by the effect that gave you this condition.",
-			"This condition is removed by a short rest, a long rest, or casting lesser restoration."
+            "You have vulnerability to a type of damage specified by the effect that gave you this condition."
         ]
     },
     {
@@ -61,8 +60,7 @@ data_condition = [
         reference: "Homebrew",
         bullets: [
 			"You have disadvantage on death saving throws.",
-			"When one or more dice are rolled to restore hit points to a doomed creature, each die is treated as if it had rolled a 1.",
-			"This condition is removed by a long rest or casting greater restoration."
+			"When one or more dice are rolled to restore hit points to a doomed creature, each die is treated as if it had rolled a 1."
         ]
     },
     {
