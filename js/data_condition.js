@@ -12,6 +12,27 @@ data_condition = [
         ]
     },
     {
+        title: "Bloodied",
+        icon: "half-heart",
+        subtitle: "You are injured",
+        description: "This occurs any time you have less than half HP",
+        reference: "Homebrew",
+        bullets: [
+            "There are no ill effects from this condition."
+        ]
+    },
+    {
+        title: "Burned",
+        icon: "frostfire",
+        subtitle: "You have been burned",
+        description: "You have been burned",
+        reference: "Homebrew",
+        bullets: [
+            "You have vulnerability to a type of damage specified by the effect that gave you this condition.",
+			"This condition is removed by a short rest, a long rest, or casting lesser restoration."
+        ]
+    },
+    {
         title: "Charmed",
         icon: "smitten",
         subtitle: "You are charmed",
@@ -30,6 +51,18 @@ data_condition = [
         reference: "PHB, pg. 290.",
         bullets: [
             "You automatically fail any ability check which requires hearing."
+        ]
+    },
+    {
+        title: "Doomed",
+        icon: "haunting",
+        subtitle: "You are pursed by death",
+        description: "You are pursed by death",
+        reference: "Homebrew",
+        bullets: [
+			"You have disadvantage on death saving throws.",
+			"When one or more dice are rolled to restore hit points to a doomed creature, each die is treated as if it had rolled a 1.",
+			"This condition is removed by a long rest or casting greater restoration."
         ]
     },
     {
