@@ -249,16 +249,5 @@ data_action = [
         bullets: [
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
-    },
-    {
-        title: "Being a dumbass",
-        icon: "aerial-signal",
-        subtitle: "You flash your fake police badge to someone",
-        description: "You flash your fake police badge to someone",
-        reference: "Homebrew",
-        bullets: [
-            "You fail at whatever action you are attempting",
-		"and you screw over your party members."
-        ]
     }
 ]
